@@ -15,7 +15,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Header />
-        <div className='bg-[#39445a]'>
+        <div className='bg-gradient-to-r from-indigo-500 '>
           <Routes>
             <Route path="/" element={<Trending />} exact />
             <Route path="/movies" element={<Movies />} />
