@@ -24,7 +24,7 @@ const Content = ({
         <h1 className='font-bold m-1 mt-2 text-center'>{title}</h1>
     
       <div className='grid grid-flow-col grid-rows-1 px-6 text-gray-300'>
-        <span className='' >{media_type==="tv" ? "TV series" : "Movie"}</span>
+        <span className='' >{media_type==="tv" ? "Series" : "Movie"}</span>
         <span className='text-end' >{date}</span>
       </div>
     
