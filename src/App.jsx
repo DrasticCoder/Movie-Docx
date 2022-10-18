@@ -17,7 +17,7 @@ const App = () => {
         <Header />
         <div className='bg-gradient-to-r from-indigo-500 '>
           <Routes>
-            <Route path="/" element={<Trending />} exact />
+            <Route path="/" exact element={<Trending />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/series" element={<Series />} />
             <Route path="/search" element={<Search />} />
