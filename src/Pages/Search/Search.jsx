@@ -25,7 +25,7 @@ const Search = () => {
       <div className='text-white font-bold pl-8 pt-3 text-2xl'>Search</div>
     
     <div className='bg-purple-200 mx-5 p-5 '>
-      <input type="text" placeholder='Search here...' value={searchText} onChange={(e) => { setSearchText(e.target.value); fetchTrending() }} className='appearance-none  border-none w-4/5 text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none' />
+      <input type="text" placeholder='Search here...' value={searchText} onChange={(e) => { setSearchText(e.target.value); fetchTrending() }} className='appearance-none bg-green-300 border-none w-4/5 text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none' />
 
     </div>
 
